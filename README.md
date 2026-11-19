@@ -1,5 +1,8 @@
-# BaseGrounds+
+WARNİNG!!!!
 
+This project was made almost entirely by claude and gemini.I am not a coder nor a developer im a man with some ideas.So don't expect anything professional from this mod and if you are not okay with this please don't download nor comment.I made this for my playtrough at first but then realised there may be people that could wanna use it so im uploading these here.
+
+# BaseGrounds+
 A KSP 1.12 mod that stops landed vessels and bases from jumping, sinking into the ground or getting thrown into the sky when they load. It also lets you lock a base to the ground with one click.
 
 Works on every body with a surface: stock, Kopernicus planet packs and **Real Solar System / RO / RP-1**.
