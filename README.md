@@ -51,7 +51,6 @@ Click the **anchor button on the stock toolbar**. The window opens next to it (f
 
 ## Extra fixes included
 
-- **Right-click menus that won't open** (`InvalidCastException` in `UIPartActionToggle.GetFieldValue`). KSP caches each part setting's menu controls in a table keyed only by `FieldInfo.GetHashCode()`, which can collide in large installs, so a setting can receive another setting's controls. A small Harmony patch (`PartMenuCacheFix`) makes the lookup collision-safe. A backup check turns any remaining broken on/off switch into read-only text (can be turned off in Settings).
 - **Realism Overhaul + ReStock LT-2 landing strut** (`Patches/Fix_RO_ReStock_LT2.cfg`): RO's KerbalFoundries patch uses transform names from an older ReStock model, which makes KerbalFoundries throw an error every frame. The patch corrects the names only when the old ones are present. Delete the file to undo it.
 
 ## Install / uninstall
