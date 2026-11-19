@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Optional: for editing in Visual Studio / Rider. build.ps1 builds without any SDK. -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>5</LangVersion>
+    <AssemblyName>BaseGroundsPlus</AssemblyName>
+    <RootNamespace>BaseGroundsPlus</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>..\GameData\BaseGroundsPlus\Plugins\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <KSPDir Condition="'$(KSPDir)' == ''">D:\SteamLibrary\steamapps\common\Kerbal Space Program</KSPDir>
+    <Managed>$(KSPDir)\KSP_x64_Data\Managed</Managed>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(Managed)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(Managed)\Assembly-CSharp-firstpass.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(Managed)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(Managed)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(Managed)\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(Managed)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(Managed)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(Managed)\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.VehiclesModule"><HintPath>$(Managed)\UnityEngine.VehiclesModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(Managed)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(KSPDir)\GameData\000_Harmony\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
