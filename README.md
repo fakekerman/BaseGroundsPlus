@@ -80,3 +80,5 @@ Turn on *Detailed log* in Settings to write every hold, release and lift to `KSP
 ## Credits and license
 
 Fake_kerman (ideas, design and testing); built with the AI assistant Claude (Anthropic).
+
+Licensed under the **GNU General Public License v3.0**; see [LICENSE](LICENSE).
