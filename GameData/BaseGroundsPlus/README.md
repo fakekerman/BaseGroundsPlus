@@ -1,5 +1,8 @@
-# BaseGrounds+
+WARNİNG!!!!
 
+This project was made almost entirely by claude and gemini.I am not a coder nor a developer im a man with some ideas.So don't expect anything professional from this mod and if you are not okay with this please don't download nor comment.I made this for my playtrough at first but then realised there may be people that could use it so im uploading these here.
+
+# BaseGrounds+
 A KSP 1.12 mod that stops landed vessels and bases from jumping, sinking into the ground or getting thrown into the sky when they load. It also lets you lock a base to the ground with one click.
 
 Works on every body with a surface: stock, Kopernicus planet packs and **Real Solar System / RO / RP-1**.
@@ -51,7 +54,6 @@ Click the **anchor button on the stock toolbar**. The window opens next to it (f
 
 ## Extra fixes included
 
-- **Right-click menus that won't open** (`InvalidCastException` in `UIPartActionToggle.GetFieldValue`). KSP caches each part setting's menu controls in a table keyed only by `FieldInfo.GetHashCode()`, which can collide in large installs, so a setting can receive another setting's controls. A small Harmony patch (`PartMenuCacheFix`) makes the lookup collision-safe. A backup check turns any remaining broken on/off switch into read-only text (can be turned off in Settings).
 - **Realism Overhaul + ReStock LT-2 landing strut** (`Patches/Fix_RO_ReStock_LT2.cfg`): RO's KerbalFoundries patch uses transform names from an older ReStock model, which makes KerbalFoundries throw an error every frame. The patch corrects the names only when the old ones are present. Delete the file to undo it.
 
 ## Install / uninstall
